@@ -1,9 +1,9 @@
 # Semester 1 assignement 
-Use this template ot build your assignment. You'll need to add to the existing files, and create new files as well to extend the project to meet the requirements. 
+Use this template to build your assignment. You'll need to add to the existing files, and create new files as well to extend the project to meet the assignment requirements. 
 
 ## Scenario
 
-You are building a website to help students with studying, you'll need to find a way to help students revise deintions for differnt topics in a flash-card like app. 
+You are building a website to help students with studying, you'll need to find a way to help students revise definitions for differnt topics in a flash-card like app. 
 
 # Assesment criteria
 - The assesment is woth 20% of your final grade
