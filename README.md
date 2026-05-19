@@ -13,7 +13,12 @@ You are building a website to help students with studying. You'll need to find a
 - Make sure your code passes the linter too.
 - Add more functions. Every function must have a unit test.
 
-## First-time setup in VS Code
+## How to work on this project
+
+<details>
+<summary><strong>Local development in VS Code</strong></summary>
+
+### Set up
 
 1. Open the project in VS Code.
 2. Make sure you have the Python extension installed.
@@ -24,18 +29,46 @@ You are building a website to help students with studying. You'll need to find a
 5. Wait for the setup task to finish.
 6. If VS Code asks you to select a Python interpreter, choose the one in `.venv`.
 
-## Running in VS Code
+### Run the project
 
 1. Open the **Run and Debug** panel.
 2. Select **Run Flask app**.
 3. Press **Start Debugging**.
 4. Open `http://127.0.0.1:8000` in your browser.
 
-## Running tests in VS Code
+### Run tests
 
 1. Open **Terminal > Run Task**.
 2. Choose:
    - **Run tests (Windows)** on Windows, or
    - **Run tests (macOS/Linux)** on macOS or Linux.
+
+</details>
+
+<details>
+<summary><strong>Using GitHub Codespaces</strong></summary>
+
+### Set up
+
+1. Open the project in a GitHub Codespace.
+2. Make sure the Python extension is available in the Codespace.
+3. Open **Terminal > Run Task**.
+4. Choose **Set up project (macOS/Linux)**.
+5. Wait for the setup task to finish.
+6. If prompted to select a Python interpreter, choose the one in `.venv`.
+
+### Run the project
+
+1. Open the **Run and Debug** panel.
+2. Select **Run Flask app**.
+3. Press **Start Debugging**.
+4. When port `8000` is forwarded, open it in the browser from the **Ports** tab or the prompt shown by Codespaces.
+
+### Run tests
+
+1. Open **Terminal > Run Task**.
+2. Choose **Run tests (macOS/Linux)**.
+
+</details>
 
 etc, etc, etc
