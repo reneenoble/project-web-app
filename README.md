@@ -13,13 +13,29 @@ You are building a website to help students with studying. You'll need to find a
 - Make sure your code passes the linter too.
 - Add more functions. Every function must have a unit test.
 
-## Running in VS Code
+## First-time setup in VS Code
 
 1. Open the project in VS Code.
 2. Make sure you have the Python extension installed.
-3. Open the **Run and Debug** panel.
-4. Select **Run Flask app**.
-5. Press **Start Debugging**.
-6. Open `http://127.0.0.1:8000` in your browser.
+3. Open **Terminal > Run Task**.
+4. Choose:
+   - **Set up project (Windows)** on Windows, or
+   - **Set up project (macOS/Linux)** on macOS or Linux.
+5. Wait for the setup task to finish.
+6. If VS Code asks you to select a Python interpreter, choose the one in `.venv`.
+
+## Running in VS Code
+
+1. Open the **Run and Debug** panel.
+2. Select **Run Flask app**.
+3. Press **Start Debugging**.
+4. Open `http://127.0.0.1:8000` in your browser.
+
+## Running tests in VS Code
+
+1. Open **Terminal > Run Task**.
+2. Choose:
+   - **Run tests (Windows)** on Windows, or
+   - **Run tests (macOS/Linux)** on macOS or Linux.
 
 etc, etc, etc
